@@ -1,0 +1,12 @@
+name: AlwaysSurvival
+version: 1.0.0
+api: 5.0.0
+main: NiamSky\NS\Main
+author: NiamSky
+description: A plugin that force gamemode to survival when move to another world
+depend: MultiWorld
+
+permissions:
+  forcegamemode.use:
+    description: Allows players to change their gamemode to survival when moving into another world.
+    default: op
